@@ -1,2 +1,0 @@
-#!/bin/bash
-paste -sd "" | sed -n "p;n"
