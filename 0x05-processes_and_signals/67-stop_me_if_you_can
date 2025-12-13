@@ -1,5 +1,3 @@
 #!/usr/bin/env bash
 # Sends SIGTERM to the 7-highlander process
-
-pid=$(pgrep -f 7-highlander)
-kill "$pid"
+pkill -q -f "7-highlander"
